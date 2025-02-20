@@ -1,0 +1,65 @@
+
+.conteiner {
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.card {
+    
+    padding: 5px; 
+}
+.img {
+    display: flex;
+}
+.card>img {
+    width: 100%;
+    height: 80%;
+    padding: 5px;
+    
+}
+.conteiner1{
+    margin: 10px;
+    display: inline-block;
+    border-style: outset;
+    border-width: 0.5px; 
+    padding: 10px;
+}
+.name{
+    text-align: center;
+}
+
+.conteiner1>img {
+    width: 50%;
+float: left;
+margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+    .img {
+display: block;
+}  
+    .conteiner1>img {
+    float: none;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+  .conteiner {
+    margin-top: 40px;
+    margin-left: 12px;
+    margin-right: 12px;
+    }
+    .conteiner1 {
+        height: auto;
+    }
+
+    .conteiner1>img {
+        width: 100%;
+        float: none;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+

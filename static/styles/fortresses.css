@@ -1,0 +1,46 @@
+
+.conteiner {
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+    .conteiner1{
+        margin: 10px;
+        display: inline-block;
+        border-style: groove;
+        border-width: 0.5px; 
+        padding: 10px;
+    }
+    .name{
+        text-align: center;
+    }
+    
+    .conteiner1>img {
+        width: 49%;
+    float: left;
+    margin-right:10px ;
+    }
+    
+    
+    .conteiner1.float-right img {
+        float: right;
+        margin-left: 10px;
+    }
+
+    @media only screen and (max-width: 1000px) {
+            .conteiner {
+            margin-top: 40px;
+            margin-left: 12px;
+            margin-right: 12px;
+            }
+            .conteiner1 {
+                height: auto;
+            }
+
+            .conteiner1>img {
+                width: 100%;
+                float: none;
+                margin-left: 0px;
+                margin-bottom: 10px;
+            }
+        }

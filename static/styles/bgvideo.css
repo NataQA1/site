@@ -1,0 +1,55 @@
+
+.bgvideo {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgvideo video {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.effect {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.367);
+}
+
+.video-text {
+    color: rgb(234, 242, 239);
+    z-index: 2;
+    font-size: 40px;
+}
+
+/*текст*/
+
+.conteiner {
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+@media only screen and (max-width: 400px) {
+    .conteiner {
+    margin-top: 40px;
+    margin-left: 12px;
+    margin-right: 12px;
+    }
+    .video-text{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,44 @@
+
+.conteiner {
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.conteiner1 {
+    background-color: rgba(10, 208, 102, 0.77);
+    color: rgb(41, 5, 5);
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.nature-img{
+    text-align: center;
+    
+}
+.img {
+    display: flex;
+}
+.nature-img>img {
+    width: 70%;
+    height: 80%;
+}
+@media (max-width: 800px) {
+    .img {
+        display: block;
+        }    
+}
+
+@media only screen and (max-width: 1000px) {
+    .conteiner {
+    margin-top: 40px;
+    margin-left: 12px;
+    margin-right: 12px;
+    }
+    .conteiner1 {
+        height: auto;
+    }
+}
+
+
+

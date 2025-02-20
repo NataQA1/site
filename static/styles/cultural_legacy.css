@@ -1,0 +1,39 @@
+.conteiner {
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+
+
+.card {
+    padding: 5px; 
+}
+.img {
+    display: flex;
+}
+.card>img {
+    width: 100%;
+    height: 80%;
+}
+@media (max-width: 800px) {
+    .img {
+display: block;
+}    
+}
+
+@media only screen and (max-width: 1000px) {
+    .conteiner {
+    margin-top: 40px;
+    margin-left: 12px;
+    margin-right: 12px;
+    }
+    .conteiner1 {
+        height: auto;
+    }
+}
+
+
+
+
+
